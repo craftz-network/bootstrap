@@ -1,0 +1,19 @@
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #A7E6FF, #3ABEF9, #3572EF);
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+	-fx-pref-width: 390;
+	-fx-background-insets: 0 0 1 0;
+	-fx-padding: 0.15em;
+}
+
+.progress-bar .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+	-fx-background-insets:  0, 1;
+}
+
+.parent-container {
+    -fx-background-color: transparent;
+}
